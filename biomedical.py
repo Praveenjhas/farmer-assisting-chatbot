@@ -8,7 +8,7 @@ Original file is located at
 """
 
 from google.colab import drive
-drive.mount('/content/drive')
+drive.mount('https://drive.google.com/drive/folders/1myp0nBv7kvzfSinzD-R7oXse6clOLFVN?usp=drive_link')
 
 import torch
 from langchain import PromptTemplate, HuggingFacePipeline
