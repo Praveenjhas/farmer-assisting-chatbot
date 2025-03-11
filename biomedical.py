@@ -10,10 +10,6 @@ Original file is located at
 from google.colab import drive
 drive.mount('/content/drive')
 
-pip install langchain sentence-transformers chromadb llama-cpp-python langchain_community pypdf
-
-pip install -q -U langchain transformers bitsandbytes accelerate
-
 import torch
 from langchain import PromptTemplate, HuggingFacePipeline
 from transformers import BitsAndBytesConfig, AutoModelForCausalLM, AutoTokenizer, GenerationConfig, pipeline
